@@ -22,7 +22,7 @@ pip install nomedabiblioteca
 
 ## Para extrair os dados
 
-Feito o setup, alterar os parâmetros:
+Feito o setup, alterar os parâmetros (para testes recomendamos não que 10 dias):
 ```
 start_date = date(2015, 4, 13)
 end_date = date(2015, 4, 15)
