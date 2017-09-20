@@ -1,13 +1,13 @@
-#cgesp_scrap
+# cgesp_scrap
 Extração de endereços dos pontos de alagamentos da página https://www.cgesp.org/v3/alagamentos.jsp e subsequente conversão dos pontos em coordenadas.
 
-##Objetivo
+## Objetivo
 Extrair dados de pontos de alagamentos de hoje até 2005.
 
-###Pré-requisitos
+### Pré-requisitos
 - Python ([Instruções](https://www.python.org/downloads/))
 
-###Setup
+### Setup
 Instalar as seguintes bibliotecas python
 - datetime 
 - urllib.request
@@ -20,7 +20,7 @@ Instalar as seguintes bibliotecas python
 pip install nomedabiblioteca
 ```
 
-##Para extrair os dados
+## Para extrair os dados
 
 Feito o setup, alterar os parâmetros:
 ```
