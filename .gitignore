@@ -39,11 +39,11 @@ $RECYCLE.BIN/
 .Trashes
 .VolumeIcon.icns
 
-.__pycache__
-.2017_feitos_falhados
-.2017_revisados
-.a_revisar
-.filter
+__pycache__/
+2017_feitos_falhados/
+2017_revisados/
+a_revisar/
+filter/
 
 
 # Directories potentially created on remote AFP share
