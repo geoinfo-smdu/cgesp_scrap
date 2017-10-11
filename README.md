@@ -5,30 +5,26 @@ Extração de endereços dos pontos de alagamentos da página https://www.cgesp.
 Extrair dados de pontos de alagamentos de hoje até 2005.
 
 ### Pré-requisitos
-- Python ([Instruções](https://www.python.org/downloads/))
+- Python 3.6.X([Instruções](https://www.python.org/downloads/))
 
 ### Setup
 Instalar as seguintes bibliotecas python
-- datetime 
-- urllib.request
-- bs4
-- json
-- geocoder
+```
+virtualenv env # criar o ambiente virtual
+env\Scripts\activate # ativar o ambiente virtual
+pip install -r requirements.txt # instalar as dependencias de python
+```
 
-- Para instalar os recursos, digitar no terminal ou prompt:
-```
-pip install nomedabiblioteca
-```
 
 ## Para extrair os dados
+Abrir o arquivo 'script.py'. 
 
-
-Baixar o arquivo 'script.py'. 
 Alterar os parâmetros "start_date" e "end_date"
 ```
 start_date = date(2015, 4, 13)
 end_date = date(2015, 4, 15)
 ```
+
 abrir o terminal ou prompt e digitar:
 ```
 python script.py

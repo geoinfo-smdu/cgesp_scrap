@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup as soup
 import json
 import geocoder
 
-start_date = date(2015, 4, 13)
-end_date = date(2015, 4, 15)
+start_date = date(2015, 3, 20)
+end_date = date(2015, 4, 1)
 
 def daterange(start_date, end_date):
     for n in range(int ((end_date - start_date).days)):
