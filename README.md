@@ -27,5 +27,5 @@ end_date = date(2015, 4, 15)
 
 abrir o terminal ou prompt e digitar:
 ```
-python script.py
+python scrap.py
 ```
