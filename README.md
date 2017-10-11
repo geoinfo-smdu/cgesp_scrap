@@ -8,7 +8,7 @@ Extrair dados de pontos de alagamentos de hoje até 2005.
 - Python 3.6.X([Instruções](https://www.python.org/downloads/))
 
 ### Setup
-Instalar as seguintes bibliotecas python
+Criar ambiente virtual e instalar as dependências
 ```
 virtualenv env # criar o ambiente virtual
 env\Scripts\activate # ativar o ambiente virtual
@@ -25,7 +25,7 @@ start_date = date(2015, 4, 13)
 end_date = date(2015, 4, 15)
 ```
 
-abrir o terminal ou prompt e digitar:
+Abrir o terminal ou prompt e digitar:
 ```
 python scrap.py
 ```
